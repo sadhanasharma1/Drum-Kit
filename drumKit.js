@@ -18,31 +18,31 @@ document.querySelectorAll(".drum")[i].addEventListener("click",
 function (){
 var buttonInnerHTML=this.innerHTML;
 switch(buttonInnerHTML){
-    case "w":
+    case "s":
         var audio= new Audio("tom-1.mp3");
         audio.play();
         break;
-    case "a":
+    case "a1":
         var audio= new Audio("tom-2.mp3");
         audio.play();
         break;
-    case "s":
+    case "d":
         var audio= new Audio("tom-3.mp3");
         audio.play();
         break;
-    case "d":
+    case "h":
         var audio= new Audio("tom-4.mp3");
         audio.play();
         break;
-    case "j":
+    case "a2":
         var audio= new Audio("snare.mp3");
         audio.play();
         break;
-    case "k":
+    case "n":
         var audio= new Audio("crash.mp3");
         audio.play();
         break;
-    case "l":
+    case "a3":
         var audio= new Audio("kick-bass.mp3");
         audio.play();
         break;
