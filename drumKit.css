@@ -16,31 +16,31 @@ body {
     font-family: sans-serif;
   }
   
-  .w {
+  .s {
 background-image: url("tom1.png") ;
   }
   
-  .a {
+  .a1 {
     background-image: url("tom2.png") ;
   }
   
-  .s {
+  .d {
     background-image: url("tom3.png") ;
   }
   
-  .d {
+  .h {
     background-image: url("tom4.png") ;
   }
   
-  .j {
+  .a2 {
     background-image: url("snare.png") ;
   }
   
-  .k {
+  .n {
     background-image: url("crash.png") ;
   }
   
-  .l {
+  .a3 {
     background-image: url("kick.png") ;
   }
   
@@ -79,4 +79,11 @@ background-image: url("tom1.png") ;
     margin: 10px;
     background-color: white;
   }
+
+@media (max-width:100px){
+   .set{
+       display:flex;
+       flex-direction:column;
+   }
+}
   
