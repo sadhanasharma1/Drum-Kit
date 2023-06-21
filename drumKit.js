@@ -22,7 +22,7 @@ switch(buttonInnerHTML){
         var audio= new Audio("tom-1.mp3");
         audio.play();
         break;
-    case "a1":
+    case "a<span>1</span>":
         var audio= new Audio("tom-2.mp3");
         audio.play();
         break;
@@ -34,7 +34,7 @@ switch(buttonInnerHTML){
         var audio= new Audio("tom-4.mp3");
         audio.play();
         break;
-    case "a2":
+    case "a<span>2</span>":
         var audio= new Audio("snare.mp3");
         audio.play();
         break;
@@ -42,7 +42,7 @@ switch(buttonInnerHTML){
         var audio= new Audio("crash.mp3");
         audio.play();
         break;
-    case "a3":
+    case "a<span>3</span>":
         var audio= new Audio("kick-bass.mp3");
         audio.play();
         break;
