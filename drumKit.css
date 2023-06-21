@@ -79,6 +79,9 @@ background-image: url("tom1.png") ;
     margin: 10px;
     background-color: white;
   }
+.drum span{
+    visibility:hidden;
+}
 
 @media screen and (max-width:500px){
    .set,h1{
